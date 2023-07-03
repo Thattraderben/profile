@@ -1,0 +1,84 @@
+h1{
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: rgb(88, 142, 88);
+}
+
+.text-center {
+  text-align: center;
+}
+
+i {
+  color: rgb(88, 142, 88);
+  font-size: 50px;
+}
+
+.social-links{
+
+  display: flex;
+  justify-content: center;
+}
+
+.card-lightgray {
+
+  background-color: lightgray;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.card-lightgray > * {
+  margin-bottom: 10px;
+}
+
+#profile-pic {
+  width: 150px; /* Adjust the width to your desired size */
+  height: 150px; /* Adjust the height to your desired size */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fills the container without distortion */
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 0px 5px;
+  padding-left: 0px;
+}
+
+.social-links{
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
